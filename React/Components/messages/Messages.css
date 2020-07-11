@@ -1,0 +1,41 @@
+.deletebtn {
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+.deletebtn:hover {
+    cursor: pointer;
+    color: rgb(255, 0, 0);
+}
+
+.addContactBtn {
+    width: 50px
+}
+
+.messageImage {
+    max-width: 150px;
+    max-height: 150px;
+    border: 2px;
+    border-color: #686868;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.messageDocument {
+    width: 150px;
+    height: 150px;
+    border: 2px;
+    border-color: #686868;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.video-frame {
+    min-width: 380px;
+    min-height: 580px;
+}
+
+.popper-frame {
+    min-width: 400px;
+    max-width: 60vw;
+}

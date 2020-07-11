@@ -1,0 +1,11 @@
+.button_badge {
+  background-color: red;
+  border-radius: 5px;
+  color: white;
+  padding: 0px 2px;
+  font-size: 14px;
+  position: absolute;
+
+  bottom: 25px;
+  right: 10px;
+}

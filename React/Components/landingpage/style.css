@@ -1,0 +1,255 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #525f7f;
+    text-align: left;
+    background-color: #fff;
+}
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+    display: block;
+}
+
+blockquote .svg-inline--fa {
+    color: #1ebba3;
+    margin: 1rem;
+}
+
+
+
+
+.section-dark {
+    background-color: #f0f1f3;
+}
+
+
+
+.btn-signup:hover {
+    transform: translateY(-3px);
+    background-color: #2dce89;
+    border-color: #2dce89;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+.btn-signup:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.btn-signup-animated {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.footer {
+    background-color: #f0f1f3;
+}
+
+.info {
+    margin-top: 0;
+    font-size: 3.4em;
+}
+
+
+.about-link:hover {
+    background-color: #f0f1f3;
+    cursor: pointer;
+    transform: translateY(-2px);
+    transition: all 0.15s ease;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.about-active {
+    cursor: pointer;
+    transform: translateY(-2px);
+    transition: all 0.15s ease;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.shadow {
+    box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07) !important;
+}
+
+.testimonial {
+    box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
+}
+
+.blockquote {
+    font-weight: 300;
+    margin: 15px 0 10px;
+    border: 0;
+    text-align: middle;
+}
+
+.product-image {
+    max-width: 50%;
+    max-height: 50%;
+    border-radius: 2%;
+    border-color: black;
+    border: 1px dotted;
+}
+
+.product-image:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.container-form {
+    padding-bottom: 15px;
+    margin: 10%;
+    flex-grow: 1;
+    padding: 0 30px;
+    margin-left: 5%;
+}
+
+.contact-banner {
+    font-weight: 800;
+    display: flexbox;
+    text-align: center;
+    height: 50px;
+    margin-top: -30px;
+    margin-bottom: -15px;
+    background-color: #525f7f;
+    color: white;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.input-field {
+    margin: 25px 0;
+}
+
+.submit {
+    margin-top: 35px;
+}
+
+.contact-us-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* margin-top: 150px; */
+    background-color: rgb(20, 43, 114);
+}
+
+.contact-right {
+    margin: 100px 10%;
+    color: white;
+}
+
+.contact-left {
+    margin-left: 5%;
+}
+
+.contact-right p {
+    font-size: 20px;
+}
+
+.mdi {
+    font-size: 30px;
+}
+
+
+.terms p {
+    font-family: 'Source Sans Pro', helvetica, sans-serif;
+    color: #171717;
+    font-size: .9rem
+}
+
+
+
+.card-lift--hover:hover {
+    transform: translateY(-20px);
+    transition: all 0.15s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .card-lift--hover:hover {
+        transition: none;
+    }
+}
+
+
+.headroom {
+    will-change: transform;
+    background-color: inherit;
+    transition: all 0.15s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .headroom {
+        transition: none;
+    }
+}
+
+.headroom--pinned {
+    transform: translateY(0%);
+}
+
+.headroom--unpinned {
+    transform: translateY(-100%);
+}
+
+.headroom--not-top {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: #f0f1f3 !important;
+    box-shadow: 0 1px 10px rgba(130, 130, 134, 0.1);
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.description {
+    font-size: 0.875rem;
+    min-height: 200px;
+}
